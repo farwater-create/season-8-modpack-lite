@@ -80,6 +80,7 @@ mode = "fancy"
 				ghost = true
 				raven = true
 				owl = true
+				snake = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				snowy_creeper = true
@@ -89,4 +90,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
+
+			[light_sources.settings.entities.ad_astra]
+				lunarian = true
 
