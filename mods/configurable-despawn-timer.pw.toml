@@ -1,0 +1,13 @@
+name = "Configurable Despawn Timer"
+filename = "configurabledespawntimer-1.19.2-3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ffbd928ed2432237014eeeca7011eb90b79fb4a4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4397674
+project-id = 347751

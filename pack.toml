@@ -1,0 +1,11 @@
+name = "NearLava 1.19.2"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "029c1af8727574562af8209cec09fe168bf45fa416bab82cb9f405ce595e888c"
+
+[versions]
+fabric = "0.14.13"
+minecraft = "1.19.2"

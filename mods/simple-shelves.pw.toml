@@ -1,0 +1,13 @@
+name = "Simple Shelves"
+filename = "simple_shelves-1.1.4+1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3b05ccb2e574e99a17b825565046efa55856210f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4276580
+project-id = 527392
