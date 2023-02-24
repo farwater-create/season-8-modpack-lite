@@ -1500,6 +1500,11 @@ hash = "0a6954ff40696c8adc8e74c1ed92bb120e735f57e5b05b550852f847afc30b54"
 metafile = true
 
 [[files]]
+file = "mods/servercore.pw.toml"
+hash = "a9b9f9c8de767e3839598463d746364421cb56092fe519d5918b691789471861"
+metafile = true
+
+[[files]]
 file = "mods/simple-copper-pipes.pw.toml"
 hash = "a3498f38e9f04ab2cf10b188cedd923a60583035f3cc18cc0cf997a38ecf0e23"
 metafile = true
@@ -1602,11 +1607,6 @@ metafile = true
 [[files]]
 file = "mods/voice-chat-interaction.pw.toml"
 hash = "8c6b982cc990d9c7537826c15521c9813b05d9388f31ee836ec2fec7e957279f"
-metafile = true
-
-[[files]]
-file = "mods/when-dungeons-arise-fabric.pw.toml"
-hash = "0d0eed7a6276bf9faed316a1baba988c4d3bffe1591a8ac1ba7bc49c63957e72"
 metafile = true
 
 [[files]]
