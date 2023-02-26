@@ -1,0 +1,115 @@
+{
+	id: "7F56856EA5B060D6"
+	group: ""
+	order_index: 2
+	filename: "theres_more_to_life_then_tech"
+	title: "Farmer"
+	icon: "minecraft:wheat"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Eat every food item from Croptopia"
+			id: "2E15037F3AF3FEFE"
+			tasks: [{
+				id: "3E59941A12C767F6"
+				type: "advancement"
+				advancement: "croptopia:gather_food"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4B12D201593E8567"
+					type: "item"
+					item: "simplehats:hatbag_epic"
+					count: 8
+				}
+				{
+					id: "480F7D2DCBAAE755"
+					type: "item"
+					item: "simplehats:hatbag_rare"
+					count: 16
+				}
+				{
+					id: "43DC85374688733F"
+					type: "item"
+					item: "simplehats:hatbag_uncommon"
+					count: 32
+				}
+				{
+					id: "51DCE9A22DD183E7"
+					type: "item"
+					item: "simplehats:hatbag_common"
+					count: 64
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "Gather every seed from croptopia"
+			id: "2138DD6E74FC083C"
+			tasks: [{
+				id: "1D1BC16FC9FDF8BF"
+				type: "advancement"
+				advancement: "croptopia:gather_all"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7CB2C23F0DA3D030"
+				type: "item"
+				item: "simplehats:hatbag_epic"
+				count: 4
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			subtitle: "Gather every croptopia sapling"
+			id: "2FD6C50FF4CEEA89"
+			tasks: [{
+				id: "39D8B0CB5A53CE91"
+				type: "advancement"
+				advancement: "croptopia:gather_tree_all"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "77042836DCC305F9"
+				type: "item"
+				item: "simplehats:hatbag_epic"
+				count: 2
+			}]
+		}
+		{
+			title: "Croptopia Mastery"
+			icon: {
+				id: "minecraft:netherite_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 1.5d
+			dependencies: [
+				"2E15037F3AF3FEFE"
+				"2138DD6E74FC083C"
+				"2FD6C50FF4CEEA89"
+			]
+			id: "3E38E9E4B252EC28"
+			tasks: [{
+				id: "4807F1B10D97EB87"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "040B0326CF3BE14D"
+				type: "item"
+				item: "simplehats:hatbag_epic"
+				count: 16
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,59 @@
+{
+	id: "6EFF623E87107467"
+	group: ""
+	order_index: 3
+	filename: "amogus"
+	title: "Sus"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: -0.5d
+		subtitle: "Make every crewmate"
+		id: "73F1A213E90B3FDE"
+		tasks: [
+			{
+				id: "5EB44A0639196DF1"
+				type: "item"
+				item: "amongus:crewmate"
+			}
+			{
+				id: "4C288ED812A61301"
+				type: "item"
+				item: "amongus:crewmatedead"
+			}
+			{
+				id: "68166F2E326AF1EF"
+				type: "item"
+				item: "amongus:imposter"
+			}
+			{
+				id: "024FCE4515BBC99F"
+				type: "item"
+				item: "amongus:crewmateyellow"
+			}
+			{
+				id: "39EDC0E0759E0884"
+				type: "item"
+				item: "amongus:orangecrewmate"
+			}
+			{
+				id: "6E70DE4A07FEB58C"
+				type: "item"
+				item: "amongus:crewmatedeadred"
+			}
+			{
+				id: "0BCB08B24A2399EA"
+				type: "item"
+				item: "amongus:blackcrewmate"
+			}
+		]
+		rewards: [{
+			id: "67CD49BBA130EF14"
+			type: "item"
+			item: "simplehats:hatbag_epic"
+			count: 2
+		}]
+	}]
+	quest_links: [ ]
+}

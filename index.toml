@@ -258,7 +258,7 @@ hash = "8f4186c227a695fde8942363956bf88a7c96ee95e077a389be4ca92c5a42407e"
 
 [[files]]
 file = "config/byg/end-biomes.json5"
-hash = "08f3326b9f2b62917a215b8030a3d4abff0fbe584c73f9e863c0cc988c01a380"
+hash = "47d5fc347e5b771e69ed7bda52ca6a6438818731eeb1b072d0a2705646b7def5"
 
 [[files]]
 file = "config/byg/growing-patterns.json5"
@@ -266,7 +266,7 @@ hash = "7775c7c5b40f3c4ee9159caad0a7c2a84a7c61619fc47a9d66e0626a72861bc6"
 
 [[files]]
 file = "config/byg/nether-biomes.json5"
-hash = "3ae4eb6e44fe760e794faee6cef8c35d0ac4e139460e4f81c8d1f951e1811efd"
+hash = "d794f02ba35c8193765ffaf14955e2206a6fded1366cb86bd6dc8666a22fca6e"
 
 [[files]]
 file = "config/byg/overworld/biome_selectors/beach_biomes/beach_biomes_1.json5"
@@ -583,38 +583,6 @@ hash = "d18f1a7b0f9661043dda6d3e73d2237070d4eabd77a5239b4b9055a9b16c21d7"
 [[files]]
 file = "config/jade/sort-order.json"
 hash = "41fed75447c8baee365d05ffeb30fde1d3f1cc541e67b5dfaefe3d02c0b13e21"
-
-[[files]]
-file = "config/jei/blacklist.cfg"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "b29feac506d3a235961108ed635fd5bc3c47b95a37784467216ee1e14b82ea2f"
-
-[[files]]
-file = "config/jei/ingredient-list-type-sort-order.ini"
-hash = "5064fb08f3a4af3321de4746ac60fe83ac464732b684a38c68d97ad2c4bce440"
-
-[[files]]
-file = "config/jei/jei-client.ini"
-hash = "3f7d8c348f8ad621549ab753590435ad4c511ee735f0d2c75830574d958b01ed"
-
-[[files]]
-file = "config/jei/jei-colors.ini"
-hash = "c6328dcf3fb8b20a9f6ea6b61266ce289565c167353e183a105fb4915c36c072"
-
-[[files]]
-file = "config/jei/jei-debug.ini"
-hash = "0c333733f16aed8b8e8846f5da4ffcf79fb5ccbf428711077405920aea6ee723"
-
-[[files]]
-file = "config/jei/jei-mod-id-format.ini"
-hash = "34eb990ae2cf62220a0d1be95629bcac46e6732f1cd6f7b6fdc54bcae02916e5"
-
-[[files]]
-file = "config/jei/recipe-category-sort-order.ini"
-hash = "7b45d0ca04c3f3d024fbd719e7b4c587017c92ab7ed8747d0fbfbbc01ff40df5"
 
 [[files]]
 file = "config/kibe.json"
@@ -1040,6 +1008,11 @@ hash = "25d767e9480cb1daaaa0dd144d270c677e8360d5ce12144ac688d7127547f8a1"
 metafile = true
 
 [[files]]
+file = "mods/configured-fabric.pw.toml"
+hash = "769481536dccb0e770ab7ec217142e3c3c3bc16c55bc4d35ddd14f41eeb85aca"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "c28d737b72469888790e82be2278b748f99759f68d601f0ae9ed27c342546d5d"
 metafile = true
@@ -1245,6 +1218,21 @@ hash = "d6504d3ab9720afbe03f10d3d8f89eb537b6d8ef8446d4551328dce9c786b551"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-fabric.pw.toml"
+hash = "ef85214468f623d4230b403161f52fe8c9259aa2f204223bbf2ab2a762289728"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-fabric.pw.toml"
+hash = "2a9f7bbb2284275b600a5a6c3382a51f7d5f487a4e7f7bfd2d4793d7e1ba9791"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-fabric.pw.toml"
+hash = "7b4a6673987fc6becfc09a3e01ccce288113cfaefbbf1ad6f3bfa796c75d501a"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "febe79b541e162e6789eedbe66a4ecf00fe66d9838f23c3bc3d3c1683704f910"
 metafile = true
@@ -1302,11 +1290,6 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "67a24992a28236ac55b0cf5500b52d2370b006ed6116dcb1eaaad94f1bfcfd12"
-metafile = true
-
-[[files]]
-file = "mods/jei.pw.toml"
-hash = "22438a3c56bbdbc073495afb06a5df3b267e6d23de589b87efa77100bde935d5"
 metafile = true
 
 [[files]]
@@ -1492,6 +1475,31 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "b89b80eb0d3278cfa9ecb4aba3ae23b7efc92707d87a98ffbccd700a631fc720"
+metafile = true
+
+[[files]]
+file = "mods/roughly-enough-items.pw.toml"
+hash = "7ce4e1730767749737ed344affc23dc397840d0ff77e7b2942fecf349bd22529"
+metafile = true
+
+[[files]]
+file = "mods/roughly-enough-loot-tables.pw.toml"
+hash = "4270ea77fa4f2d308b2299b469643f4eb5b19f7dc706af35a6e747fcfd478a38"
+metafile = true
+
+[[files]]
+file = "mods/roughly-enough-resources.pw.toml"
+hash = "672abef0a227961223b2f2e2d1508028c7ad2993b570adc71555f37d9be4ddc4"
+metafile = true
+
+[[files]]
+file = "mods/roughly-enough-trades.pw.toml"
+hash = "2e2e572b27d72c75407f1d58486284bd689a6049f7db07b4d2e47b4d20542ff1"
+metafile = true
+
+[[files]]
+file = "mods/roughly-searchable.pw.toml"
+hash = "9f197ec271bbbfbaf696892ae4246507f72b45b8d0d8fef46d2a04486fdb564d"
 metafile = true
 
 [[files]]

@@ -1,0 +1,259 @@
+{
+	id: "46C451D32CADA450"
+	group: ""
+	order_index: 1
+	filename: "hitchikers_guide"
+	title: "Hitchikers Guide"
+	icon: "ad_astra:earth_globe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Home Sweet Home"
+			icon: "ad_astra:earth_globe"
+			x: -4.5d
+			y: -1.5d
+			subtitle: "Be home"
+			id: "0030138331923ADF"
+			tasks: [{
+				id: "7FB6B9C083F0CE86"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "0D6F67F42E35B092"
+				type: "item"
+				item: "simplehats:hatbag_common"
+			}]
+		}
+		{
+			title: "To boldly go"
+			icon: "ad_astra:moon_globe"
+			x: -2.0d
+			y: -1.5d
+			subtitle: "Land on Luna"
+			dependencies: ["3BB5B5B50D3C2AA7"]
+			id: "4662752EBC35BAB3"
+			tasks: [{
+				id: "22B45934FA991A70"
+				type: "dimension"
+				dimension: "ad_astra:moon"
+			}]
+			rewards: [{
+				id: "5A1F1871E0AAE5BA"
+				type: "item"
+				item: "simplehats:hatbag_rare"
+			}]
+		}
+		{
+			title: "The messenger god"
+			icon: "ad_astra:mercury_globe"
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Land on Mercury"
+			dependencies: ["2CD01C0932A3CFB9"]
+			id: "194ED0761F39DB8B"
+			tasks: [{
+				id: "4D13990EB5CB83A1"
+				type: "dimension"
+				title: "mercury"
+				dimension: "ad_astra:mercury"
+			}]
+			rewards: [
+				{
+					id: "232EDF4419DD8DA6"
+					type: "item"
+					item: "simplehats:hatbag_rare"
+				}
+				{
+					id: "0C880248B379EA7F"
+					type: "item"
+					item: "simplehats:hatbag_rare"
+				}
+			]
+		}
+		{
+			title: "Men are from mars, women are from..."
+			icon: "ad_astra:venus_globe"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Land on Venus"
+			dependencies: ["2CD01C0932A3CFB9"]
+			id: "181EDCB24AFC0E3B"
+			tasks: [{
+				id: "5732E8F04EE9B530"
+				type: "dimension"
+				dimension: "ad_astra:venus"
+			}]
+			rewards: [
+				{
+					id: "317B229B6D382C2B"
+					type: "item"
+					item: "simplehats:hatbag_rare"
+				}
+				{
+					id: "21FAD66DEFD575A9"
+					type: "item"
+					item: "simplehats:hatbag_rare"
+				}
+			]
+		}
+		{
+			icon: "ad_astra:glacio_globe"
+			x: 2.5d
+			y: -1.5d
+			subtitle: "Land on Glacio"
+			dependencies: ["480DC3AD697F24B3"]
+			id: "355DC4DD1A37BBB9"
+			tasks: [{
+				id: "197E682D21560D59"
+				type: "dimension"
+				title: "In a galaxy, far far away."
+				dimension: "ad_astra:glacio"
+			}]
+			rewards: [
+				{
+					id: "510DFD45D3A29CC0"
+					type: "item"
+					item: "simplehats:hatbag_epic"
+				}
+				{
+					id: "59E4D65FF285B92E"
+					type: "item"
+					item: "simplehats:hatbag_epic"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["239A376E4BE1A071"]
+			id: "3BB5B5B50D3C2AA7"
+			tasks: [{
+				id: "0632E46B302F9F1D"
+				type: "advancement"
+				advancement: "ad_astra:tier_1_rocket"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "115CCF15DFAE014E"
+				type: "item"
+				item: "simplehats:hatbag_common"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["3BB5B5B50D3C2AA7"]
+			id: "1C8A339FC0E09F01"
+			tasks: [{
+				id: "7F9367E60E292EDF"
+				type: "advancement"
+				advancement: "ad_astra:tier_2_rocket"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "74D0C509F5C611CE"
+				type: "item"
+				item: "simplehats:hatbag_uncommon"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: [
+				"1C8A339FC0E09F01"
+				"18B3DF469370EEE7"
+			]
+			id: "2CD01C0932A3CFB9"
+			tasks: [{
+				id: "73372BF20AD5527D"
+				type: "advancement"
+				advancement: "ad_astra:tier_3_rocket"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "08BA3DACDBB50D07"
+					type: "item"
+					item: "simplehats:hatbag_uncommon"
+				}
+				{
+					id: "785E303E008E40A6"
+					type: "item"
+					item: "simplehats:hatbag_uncommon"
+				}
+			]
+		}
+		{
+			title: "The Martian"
+			icon: "ad_astra:mars_globe"
+			x: -0.5d
+			y: -1.5d
+			subtitle: "Land on mars"
+			dependencies: ["1C8A339FC0E09F01"]
+			id: "6DF4BC0B180A3EF7"
+			tasks: [{
+				id: "1B38BD08788BA1C3"
+				type: "dimension"
+				dimension: "ad_astra:mars"
+			}]
+			rewards: [{
+				id: "614E929F9D21210C"
+				type: "item"
+				item: "simplehats:hatbag_rare"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["2CD01C0932A3CFB9"]
+			id: "480DC3AD697F24B3"
+			tasks: [{
+				id: "6D61FE8B9AE5BB30"
+				type: "advancement"
+				advancement: "ad_astra:tier_4_rocket"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3DBA1590D063DEEA"
+				type: "item"
+				item: "simplehats:hatbag_rare"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			dependencies: ["0030138331923ADF"]
+			id: "239A376E4BE1A071"
+			tasks: [{
+				id: "7DF978EF5053B264"
+				type: "advancement"
+				advancement: "ad_astra:space_suit"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6EA7C4A7AA2A7908"
+				type: "item"
+				item: "simplehats:hatbag_uncommon"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "18B3DF469370EEE7"
+			tasks: [{
+				id: "4756C83534FF6470"
+				type: "advancement"
+				advancement: "ad_astra:netherite_space_suit"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3F9C5226654BD80C"
+				type: "item"
+				item: "simplehats:hatbag_uncommon"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

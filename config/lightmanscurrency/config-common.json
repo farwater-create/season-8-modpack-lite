@@ -1,0 +1,313 @@
+{
+  "_c1": "Crafting Settings",
+  "crafting": {
+    "_c2": "Whether Network Traders can be crafted.",
+    "_c3": "Disabling will not remove any existing Network Traders from the world, nor prevent their use.",
+    "_c4": "Disabling does NOT disable the recipes of Network Upgrades or the Trading Terminals.",
+    "allowNetworkTraderCrafting": true,
+    "_c5": "Whether Trader Interface blocks can be crafted.",
+    "_c6": "Disabling will not remove any existing Trader Interfaces from the world, nor prevent their use.",
+    "allowTraderInterfaceCrafting": true
+  },
+  "_c7": "Villager Related Settings",
+  "villagers": {
+    "_c8": "Whether the wandering trader will have additional trades that allow you to buy misc items with money.",
+    "addCustomWanderingTrades": true,
+    "_c9": "Whether the banker villager profession will have any registered trades. The banker sells Lightmans Currency items for coins.",
+    "addCBanker": true,
+    "_c10": "Whether the cashier villager profession will have any registered trades. The cashier sells an amalgamation of vanilla traders products for coins.",
+    "addCashier": true,
+    "_c11": "Settings Related to other Villagers",
+    "other_villagers": {
+      "_c12": "Whether vanilla villagers should have the Emeralds from their trades replaced with coins.",
+      "changeVanillaTrades": false,
+      "_c13": "Whether villagers added by other mods should have the Emeralds from their trades replaces with coins.",
+      "changeModdedTrades": false,
+      "_c14": "Whether the wandering trader should have the emeralds from their trades replaced with the default trader coin.",
+      "changeWanderingTrades": false,
+      "_c15": "The default coin to replace a villagers emeralds trades with.",
+      "defaultTraderCoin": "lightmanscurrency:coin_emerald",
+      "_c16": "List of trader coin overrides.",
+      "_c17": "Trader: The villager profession id of the villager trades to override.",
+      "_c18": "Coin: The coin item that will be used to replace that villagers emeralds.",
+      "villagerCoinOverrides": [
+        {
+          "Villager": "minecraft:butcher",
+          "Coin": "lightmanscurrency:coin_iron"
+        },
+        {
+          "Villager": "minecraft:cartographer",
+          "Coin": "lightmanscurrency:coin_iron"
+        },
+        {
+          "Villager": "minecraft:farmer",
+          "Coin": "lightmanscurrency:coin_iron"
+        },
+        {
+          "Villager": "minecraft:fisherman",
+          "Coin": "lightmanscurrency:coin_iron"
+        },
+        {
+          "Villager": "minecraft:fletcher",
+          "Coin": "lightmanscurrency:coin_copper"
+        },
+        {
+          "Villager": "minecraft:leatherworker",
+          "Coin": "lightmanscurrency:coin_iron"
+        },
+        {
+          "Villager": "minecraft:mason",
+          "Coin": "lightmanscurrency:coin_iron"
+        },
+        {
+          "Villager": "minecraft:shepherd",
+          "Coin": "lightmanscurrency:coin_iron"
+        }
+      ]
+    }
+  },
+  "_c19": "Entity Loot Settings",
+  "entity_loot": {
+    "_c20": "Whether coins can be dropped by entities. Does not effect chest loot generation.",
+    "enableEntityDrops": true,
+    "_c21": "Whether coins can be dropped by entities that were spawned by the vanilla spawner.",
+    "enableSpawnerEntityDrops": false,
+    "_c22": "Regular Coin Drop Entity Lists. Require player kills.",
+    "normal_drop_lists": {
+      "_c23": "Entities that will drop copper coins.",
+      "copper": [
+        "minecraft:slime",
+        "minecraft:silverfish"
+      ],
+      "_c24": "Entities that will drop copper -> iron coins.",
+      "iron": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:creeper",
+        "minecraft:spider",
+        "minecraft:cave_spider",
+        "minecraft:husk",
+        "minecraft:stray",
+        "minecraft:magma_cube",
+        "minecraft:zombie_villager",
+        "minecraft:drowned"
+      ],
+      "_c25": "Entities that will drop copper -> gold coins.",
+      "gold": [
+        "minecraft:guardian",
+        "minecraft:elder_guardian",
+        "minecraft:phantom",
+        "minecraft:blaze",
+        "minecraft:ghast",
+        "minecraft:witch",
+        "minecraft:hoglin",
+        "minecraft:piglin_brute",
+        "minecraft:piglin",
+        "minecraft:zombified_piglin"
+      ],
+      "_c26": "Entities that will drop copper > emerald coins.",
+      "emerald": [
+        "minecraft:enderman",
+        "minecraft:evoker",
+        "minecraft:vindicator",
+        "minecraft:pillager",
+        "minecraft:ravager",
+        "minecraft:shulker"
+      ],
+      "_c27": "Entities that will drop copper -> diamond coins.",
+      "diamond": [
+        "minecraft:wither_skeleton"
+      ],
+      "_c28": "Entities that will drop copper -> netherite coins.",
+      "netherite": []
+    },
+    "_c29": "Boss Coin Drop Entity Lists. Do not require player kills. Drops large quantities of coins.",
+    "boss_drop_lists": {
+      "_c30": "Entities that will drop a large amount of copper coins.",
+      "copper": [],
+      "_c31": "Entities that will drop a large amount of copper -> iron coins.",
+      "iron": [],
+      "_c32": "Entities that will drop a large amount of copper -> gold coins.",
+      "gold": [],
+      "_c33": "Entities that will drop a large amount of copper -> emerald coins.",
+      "emerald": [
+        "minecraft:warden"
+      ],
+      "_c34": "Entities that will drop a large amount of copper -> diamond coins.",
+      "diamond": [
+        "minecraft:ender_dragon"
+      ],
+      "_c35": "Entities that will drop a large amount of copper -> netherite coins.",
+      "netherite": [
+        "minecraft:wither"
+      ]
+    }
+  },
+  "_c36": "Chest Loot Settings",
+  "chest_loot": {
+    "_c37": "Whether coins can spawn in chests. Does not effect entity loot drops.",
+    "enableChestLoot": true,
+    "_c38": "Coin Spawn Chest Lists",
+    "spawn_lists": {
+      "_c39": "Chests that will occasionally spawn copper coins.",
+      "copper": [
+        "minecraft:chests/underwater_ruin_small",
+        "minecraft:chests/underwater_ruin_big"
+      ],
+      "_c40": "Chests that will occasionally spawn copper -> iron coins.",
+      "iron": [],
+      "_c41": "Chests that will occasionally spawn copper -> gold coins.",
+      "gold": [
+        "minecraft:chests/jungle_temple",
+        "minecraft:chests/nether_bridge",
+        "minecraft:chests/simple_dungeon",
+        "minecraft:chests/ruined_portal"
+      ],
+      "_c42": "Chests that will occasionally spawn copper -> emerald coins.",
+      "emerald": [
+        "minecraft:chests/stronghold_crossing",
+        "minecraft:chests/stronghold_corridor",
+        "minecraft:chests/stronghold_library",
+        "minecraft:chests/ancient_city"
+      ],
+      "_c43": "Chests that will occasionally spawn copper -> diamond coins.",
+      "diamond": [
+        "minecraft:chests/buried_treasure",
+        "minecraft:chests/bastion_hoglin_stable",
+        "minecraft:chests/bastion_bridge",
+        "minecraft:chests/bastion_other",
+        "minecraft:chests/bastion_treasure",
+        "minecraft:chests/end_city_treasure"
+      ],
+      "_c44": "Chests that will occasionally spawn copper -> netherite coins.",
+      "netherite": []
+    }
+  },
+  "_c45": "Notification Settings",
+  "notifications": {
+    "_c46": "The maximum number of notification each player/trader can have before old entries are deleted.",
+    "_c47": "Lower if you encounter packet size problems.",
+    "_c48": "Range: 10 -> Infinity",
+    "notificationLimit": 100
+  },
+  "_c49": "Safety Settings",
+  "safety": {
+    "_c50": "Whether illegally broken traders (such as being replaced with /setblock, or modded machines that break blocks) will safely eject their block/contents into a temporary storage area for the owner to collect safely.",
+    "_c51": "If dsiabled, illegally brokoen traders will throw their items on the ground, and can this be griefed by modded machines.",
+    "ejectIllegalBreaks": true
+  },
+  "_c52": "Coin Minting Settings",
+  "coin_minting": {
+    "_c53": "Determines whether or not coins should be craftable via the Coin Minting Machine.",
+    "canMintCoins": true,
+    "_c54": "Specific Coin Minting Settings",
+    "detailed": {
+      "_c55": "Whether copper coins can be minted.",
+      "canMintCopper": true,
+      "_c56": "Whether iron coins can be minted.",
+      "canMintIron": true,
+      "_c57": "Whether gold coins can be minted.",
+      "canMintGold": true,
+      "_c58": "Whether emerald coins can be minted.",
+      "canMintEmerald": true,
+      "_c59": "Whether diamond coins can be minted.",
+      "canMintDiamond": true,
+      "_c60": "Whether netherite coins can be minted.",
+      "canMintNetherite": true
+    }
+  },
+  "_c61": "Coin Melting Settings",
+  "coin_melting": {
+    "_c62": "Determines whether or not coins can be melted back into their source material in the Coin Minting Machine.",
+    "canMeltCoins": true,
+    "_c63": "Specific Coin Melting Settings",
+    "detailed": {
+      "_c64": "Whether copper coins can be melted.",
+      "canMeltCopper": true,
+      "_c65": "Whether iron coins can be melted.",
+      "canMeltIron": true,
+      "_c66": "Whether gold coins can be melted.",
+      "canMeltGold": true,
+      "_c67": "Whether emerald coins can be melted.",
+      "canMeltEmerald": true,
+      "_c68": "Whether diamond coins can be melted.",
+      "canMeltDiamond": true,
+      "_c69": "Whether netherite coins can be melted.",
+      "canMeltNetherite": true
+    }
+  },
+  "_c70": "Wallet Settings",
+  "wallet": {
+    "_c71": "The lowest level wallet capable of exchanging coins in the UI.",
+    "_c72": "0-Copper Wallet; 1-Iron Wallet; 2-Gold Wallet; 3-Emerald Wallet; 4-Diamond Wallet; 5-Netherite Wallet",
+    "_c73": "Must be less than or equal to 'pickupLevel'.",
+    "_c74": "Range: 0 -> 5",
+    "exchangeLevel": 1,
+    "_c75": "The lowest level wallet capable of automatically collecting coins while equipped.",
+    "_c76": "0-Copper Wallet; 1-Iron Wallet; 2-Gold Wallet; 3-Emerald Wallet; 4-Diamond Wallet; 5-Netherite Wallet",
+    "_c77": "Range: 0 -> 5",
+    "pickupLevel": 2,
+    "_c78": "The lowest level wallet capable of allowing transfers to/from your bank account.",
+    "_c79": "0-Copper Wallet; 1-Iron Wallet; 2-Gold Wallet; 3-Emerald Wallet; 4-Diamond Wallet; 5-Netherite Wallet",
+    "_c80": "Range: 0 -> 5",
+    "bankLevel": 5
+  },
+  "_c81": "Coin Value Display Settings",
+  "coin_value_display": {
+    "_c82": "Tooltip type displayed on coin items.",
+    "_c83": "DEFAULT: Conversion tooltips, explaining it's value based on the coins it can be converted to/from.",
+    "_c84": "VALUE: Coins numerical display value as defined by the coinValueType option below. Not recommend if using the DEFAULT coinValueType.",
+    "_c85": "Options: DEFAULT, VALUE, NONE",
+    "coinTooltipType": "DEFAULT",
+    "_c86": "Value display method used throughout the mod.",
+    "_c87": "DEFAULT: Coin Count & Icon aglomerate (1n5g for 1 netherite and 5 gold)",
+    "_c88": "VALUE: Coin numerical display value as defined by the baseValueCoin and valueFormat config options below.",
+    "_c89": "Options: DEFAULT, VALUE",
+    "coinValueType": "DEFAULT",
+    "_c90": "Input method used for the Coin Value Input.",
+    "_c91": "DEFAULT: Default coin input with up/down buttons for each coin type.",
+    "_c92": "VALUE: Text box input for the coins display value.",
+    "_c93": "Options: DEFAULT, VALUE",
+    "coinValueInputType": "DEFAULT",
+    "_c94": "Coin item defined as 1 value unit for display purposes. Any coins worth less than the base coin will have a decimal value.",
+    "baseValueCoin": "lightmanscurrency:coin_copper",
+    "_c95": "Value display format. Used to add currency signs to coin value displays in 'VALUE' mode.",
+    "_c96": "{value} will be replaced with the coins numerical value. Only 1 should be present at any given time.",
+    "valueFormat": "${value}"
+  },
+  "_c97": "Item Capacity Upgrade Settings",
+  "upgrades": {
+    "_c98": "The amount of item storage added by the first Item Capacity Upgrade (Iron).",
+    "_c99": "Range: 1 -> 1728",
+    "upgradeCapacity1": 192,
+    "_c100": "The amount of item storage added by the second Item Capacity Upgrade (Gold).",
+    "_c101": "Range: 1 -> 1728",
+    "upgradeCapacity2": 384,
+    "_c102": "The amount of item storage added by the third Item Capacity Upgrade (Diamond).",
+    "_c103": "Range: 1 -> 1728",
+    "upgradeCapacity3": 576
+  },
+  "_c104": "Enchantment Settings",
+  "enchantments": {
+    "_c105": "The coin cost required to repair a single durability point with the Money Mending enchantment.",
+    "moneyMendingBaseCost": "lightmanscurrency:coin_copper",
+    "_c106": "The base radius around the player that the Coin Magnet enchantment will collect coins from.",
+    "_c107": "Range: 0 -> 50",
+    "coinMagnetRangeBase": 5,
+    "_c108": "The increase in collection radius added by each additional level of the Coin Magnet enchantment.",
+    "_c109": "Range: 0 -> 50",
+    "coinMagnetRangeLevel": 2
+  },
+  "_c110": "Auction House Settings",
+  "auction_house": {
+    "_c111": "Whether the Auction House will appear on the trader list.",
+    "_c112": "If disabled after players have interacted with it, items & money in the auction house cannot be accessed until re-enabled.",
+    "enabled": true,
+    "_c113": "The minimum number of days an auction can be carried out.",
+    "_c114": "Range: 0 -> Infinity",
+    "minDuration": 0,
+    "_c115": "The maximum number of days an auction can be carried out.",
+    "_c116": "Range: 1 -> Infinity",
+    "maxDuration": 30
+  }
+}
