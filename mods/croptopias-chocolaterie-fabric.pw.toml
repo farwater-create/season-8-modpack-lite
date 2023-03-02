@@ -1,13 +1,13 @@
 name = "Croptopia's Chocolaterie [Fabric]"
-filename = "croptopia-chocolaterie-1.2-1.19.jar"
+filename = "croptopia-chocolaterie-1.2-1.18.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "39662f74a3e67c5af4d8159ac0e1a28b8971db0c"
+hash = "2bfa89eaa98649dae15fdca48652b5aae9761d11"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3841443
+file-id = 3841438
 project-id = 560262

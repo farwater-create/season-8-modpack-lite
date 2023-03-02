@@ -1,13 +1,13 @@
 name = "ToolTipFix"
-filename = "tooltipfix-1.1.1-1.19.jar"
+filename = "tooltipfix-1.0.4-1.18.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a5693f4886c190cc7bd66afdff063ebe333b2d6c"
+hash = "16b844c45ce0e4f1159ff51739479e8747a64d84"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4087782
+file-id = 3543273
 project-id = 411557

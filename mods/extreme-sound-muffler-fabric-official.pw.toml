@@ -1,0 +1,13 @@
+name = "Extreme sound muffler (Fabric) Official"
+filename = "extremesoundmuffler-3.30_fabric-1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9433fc55545fe434ed492057a5630995b015c8e6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4033049
+project-id = 566140

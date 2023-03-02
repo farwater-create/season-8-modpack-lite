@@ -1,13 +1,13 @@
 name = "Cull Less Leaves"
-filename = "CullLessLeaves-1.0.6.jar"
+filename = "CullLessLeaves-1.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e721078b00197fbd71e294b5ab4702b6b64a0b71"
+hash = "784f03a763ae04cd4c8df4af74b10f2efbe8f186"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4002520
+file-id = 3790158
 project-id = 619718

@@ -1,13 +1,13 @@
 name = "Among Us Plushies {FABRIC}"
-filename = "amongusplush_2.0.jar"
+filename = "1.18.x - amongus.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "64e8834085a1270a37970ce56cd5e37120122fb8"
+hash = "4b2046d2bd45e4607b6a0373ae496f11cb37f647"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4126965
+file-id = 3856184
 project-id = 639089

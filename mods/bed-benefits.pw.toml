@@ -1,13 +1,13 @@
 name = "Bed Benefits"
-filename = "BedBenefits-Fabric-1.19.2-9.1.2.jar"
+filename = "BedBenefits-Fabric-1.18.2-6.0.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c9c21ab2ad2f2543860e2cd55376a9e13b9a6ad0"
+hash = "9b2daf553365942300ab4513f0c20707c31a60d5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3943017
+file-id = 3807787
 project-id = 377051

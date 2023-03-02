@@ -1,11 +1,13 @@
-name = "NearLava 1.19.2"
+name = "Season 8 Modpack Lite"
+author = "kamaii"
+version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "42ff0c0a75069667c7c2180350cf2b7ad16071c91b9cbd5ab087027c124a116b"
+hash = "9827e8b8e425d28b37910716c0bdcd5f0bef085a80e60742c3e0449c6055a555"
 
 [versions]
-fabric = "0.14.14"
-minecraft = "1.19.2"
+fabric = "0.14.17"
+minecraft = "1.18.2"
